@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Google Maps</string>
+    <string name="ApplicationName">Map</string>
+  <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBAOBvP7zXYOANEv5u_QMGVTPclwd6NwdM</string>
+</resources>
