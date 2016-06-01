@@ -1,4 +1,7 @@
 <resources>
   <string name="app_name">Maps</string>
+  <string name="Hello">Maps Hello</string>
+  <string name="ApplicationName">Gmaps of me</string>
   <string name="title_activity_maps">Map</string>
+  <string name="google_maps_key">AIzaSyCONKC0qD3NVqK6ohh6WlXyZ1qDd4oO9PI</string>
 </resources>

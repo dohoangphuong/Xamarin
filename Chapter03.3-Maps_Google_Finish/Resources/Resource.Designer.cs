@@ -2050,8 +2050,8 @@ namespace Chapter03._3_Maps_Google_Finish
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0c0078
-			public const int action0 = 2131492984;
+			// aapt resource value: 0x7f0c0075
+			public const int action0 = 2131492981;
 			
 			// aapt resource value: 0x7f0c004c
 			public const int action_bar = 2131492940;
@@ -2077,8 +2077,8 @@ namespace Chapter03._3_Maps_Google_Finish
 			// aapt resource value: 0x7f0c004d
 			public const int action_context_bar = 2131492941;
 			
-			// aapt resource value: 0x7f0c007c
-			public const int action_divider = 2131492988;
+			// aapt resource value: 0x7f0c0079
+			public const int action_divider = 2131492985;
 			
 			// aapt resource value: 0x7f0c0002
 			public const int action_menu_divider = 2131492866;
@@ -2116,20 +2116,17 @@ namespace Chapter03._3_Maps_Google_Finish
 			// aapt resource value: 0x7f0c0024
 			public const int beginning = 2131492900;
 			
-			// aapt resource value: 0x7f0c005d
-			public const int btnSearch = 2131492957;
-			
 			// aapt resource value: 0x7f0c0036
 			public const int buttonPanel = 2131492918;
 			
-			// aapt resource value: 0x7f0c0079
-			public const int cancel_action = 2131492985;
+			// aapt resource value: 0x7f0c0076
+			public const int cancel_action = 2131492982;
 			
 			// aapt resource value: 0x7f0c0044
 			public const int checkbox = 2131492932;
 			
-			// aapt resource value: 0x7f0c007f
-			public const int chronometer = 2131492991;
+			// aapt resource value: 0x7f0c007c
+			public const int chronometer = 2131492988;
 			
 			// aapt resource value: 0x7f0c0028
 			public const int collapseActionView = 2131492904;
@@ -2161,8 +2158,8 @@ namespace Chapter03._3_Maps_Google_Finish
 			// aapt resource value: 0x7f0c0025
 			public const int end = 2131492901;
 			
-			// aapt resource value: 0x7f0c0084
-			public const int end_padder = 2131492996;
+			// aapt resource value: 0x7f0c0081
+			public const int end_padder = 2131492993;
 			
 			// aapt resource value: 0x7f0c0030
 			public const int expand_activities_button = 2131492912;
@@ -2191,20 +2188,17 @@ namespace Chapter03._3_Maps_Google_Finish
 			// aapt resource value: 0x7f0c0031
 			public const int image = 2131492913;
 			
-			// aapt resource value: 0x7f0c0083
-			public const int info = 2131492995;
+			// aapt resource value: 0x7f0c0080
+			public const int info = 2131492992;
 			
 			// aapt resource value: 0x7f0c0015
 			public const int light = 2131492885;
 			
-			// aapt resource value: 0x7f0c007d
-			public const int line1 = 2131492989;
+			// aapt resource value: 0x7f0c007a
+			public const int line1 = 2131492986;
 			
-			// aapt resource value: 0x7f0c0081
-			public const int line3 = 2131492993;
-			
-			// aapt resource value: 0x7f0c005b
-			public const int linearLayout1 = 2131492955;
+			// aapt resource value: 0x7f0c007e
+			public const int line3 = 2131492990;
 			
 			// aapt resource value: 0x7f0c0016
 			public const int listMode = 2131492886;
@@ -2212,86 +2206,86 @@ namespace Chapter03._3_Maps_Google_Finish
 			// aapt resource value: 0x7f0c0033
 			public const int list_item = 2131492915;
 			
-			// aapt resource value: 0x7f0c005e
-			public const int map = 2131492958;
+			// aapt resource value: 0x7f0c005b
+			public const int map = 2131492955;
 			
-			// aapt resource value: 0x7f0c007b
-			public const int media_actions = 2131492987;
+			// aapt resource value: 0x7f0c0078
+			public const int media_actions = 2131492984;
 			
 			// aapt resource value: 0x7f0c0026
 			public const int middle = 2131492902;
 			
-			// aapt resource value: 0x7f0c006a
-			public const int mr_art = 2131492970;
+			// aapt resource value: 0x7f0c0067
+			public const int mr_art = 2131492967;
+			
+			// aapt resource value: 0x7f0c005c
+			public const int mr_chooser_list = 2131492956;
 			
 			// aapt resource value: 0x7f0c005f
-			public const int mr_chooser_list = 2131492959;
+			public const int mr_chooser_route_desc = 2131492959;
 			
-			// aapt resource value: 0x7f0c0062
-			public const int mr_chooser_route_desc = 2131492962;
+			// aapt resource value: 0x7f0c005d
+			public const int mr_chooser_route_icon = 2131492957;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int mr_chooser_route_icon = 2131492960;
-			
-			// aapt resource value: 0x7f0c0061
-			public const int mr_chooser_route_name = 2131492961;
-			
-			// aapt resource value: 0x7f0c0067
-			public const int mr_close = 2131492967;
-			
-			// aapt resource value: 0x7f0c006d
-			public const int mr_control_divider = 2131492973;
-			
-			// aapt resource value: 0x7f0c0073
-			public const int mr_control_play_pause = 2131492979;
-			
-			// aapt resource value: 0x7f0c0076
-			public const int mr_control_subtitle = 2131492982;
-			
-			// aapt resource value: 0x7f0c0075
-			public const int mr_control_title = 2131492981;
-			
-			// aapt resource value: 0x7f0c0074
-			public const int mr_control_title_container = 2131492980;
-			
-			// aapt resource value: 0x7f0c0068
-			public const int mr_custom_control = 2131492968;
-			
-			// aapt resource value: 0x7f0c0069
-			public const int mr_default_control = 2131492969;
+			// aapt resource value: 0x7f0c005e
+			public const int mr_chooser_route_name = 2131492958;
 			
 			// aapt resource value: 0x7f0c0064
-			public const int mr_dialog_area = 2131492964;
+			public const int mr_close = 2131492964;
 			
-			// aapt resource value: 0x7f0c0063
-			public const int mr_expandable_area = 2131492963;
+			// aapt resource value: 0x7f0c006a
+			public const int mr_control_divider = 2131492970;
 			
-			// aapt resource value: 0x7f0c0077
-			public const int mr_group_expand_collapse = 2131492983;
+			// aapt resource value: 0x7f0c0070
+			public const int mr_control_play_pause = 2131492976;
 			
-			// aapt resource value: 0x7f0c006b
-			public const int mr_media_main_control = 2131492971;
-			
-			// aapt resource value: 0x7f0c0066
-			public const int mr_name = 2131492966;
-			
-			// aapt resource value: 0x7f0c006c
-			public const int mr_playback_control = 2131492972;
-			
-			// aapt resource value: 0x7f0c0065
-			public const int mr_title_bar = 2131492965;
-			
-			// aapt resource value: 0x7f0c006e
-			public const int mr_volume_control = 2131492974;
-			
-			// aapt resource value: 0x7f0c006f
-			public const int mr_volume_group_list = 2131492975;
-			
-			// aapt resource value: 0x7f0c0071
-			public const int mr_volume_item_icon = 2131492977;
+			// aapt resource value: 0x7f0c0073
+			public const int mr_control_subtitle = 2131492979;
 			
 			// aapt resource value: 0x7f0c0072
-			public const int mr_volume_slider = 2131492978;
+			public const int mr_control_title = 2131492978;
+			
+			// aapt resource value: 0x7f0c0071
+			public const int mr_control_title_container = 2131492977;
+			
+			// aapt resource value: 0x7f0c0065
+			public const int mr_custom_control = 2131492965;
+			
+			// aapt resource value: 0x7f0c0066
+			public const int mr_default_control = 2131492966;
+			
+			// aapt resource value: 0x7f0c0061
+			public const int mr_dialog_area = 2131492961;
+			
+			// aapt resource value: 0x7f0c0060
+			public const int mr_expandable_area = 2131492960;
+			
+			// aapt resource value: 0x7f0c0074
+			public const int mr_group_expand_collapse = 2131492980;
+			
+			// aapt resource value: 0x7f0c0068
+			public const int mr_media_main_control = 2131492968;
+			
+			// aapt resource value: 0x7f0c0063
+			public const int mr_name = 2131492963;
+			
+			// aapt resource value: 0x7f0c0069
+			public const int mr_playback_control = 2131492969;
+			
+			// aapt resource value: 0x7f0c0062
+			public const int mr_title_bar = 2131492962;
+			
+			// aapt resource value: 0x7f0c006b
+			public const int mr_volume_control = 2131492971;
+			
+			// aapt resource value: 0x7f0c006c
+			public const int mr_volume_group_list = 2131492972;
+			
+			// aapt resource value: 0x7f0c006e
+			public const int mr_volume_item_icon = 2131492974;
+			
+			// aapt resource value: 0x7f0c006f
+			public const int mr_volume_slider = 2131492975;
 			
 			// aapt resource value: 0x7f0c001f
 			public const int multiply = 2131492895;
@@ -2395,8 +2389,8 @@ namespace Chapter03._3_Maps_Google_Finish
 			// aapt resource value: 0x7f0c0011
 			public const int standard = 2131492881;
 			
-			// aapt resource value: 0x7f0c007a
-			public const int status_bar_latest_event_content = 2131492986;
+			// aapt resource value: 0x7f0c0077
+			public const int status_bar_latest_event_content = 2131492983;
 			
 			// aapt resource value: 0x7f0c0057
 			public const int submit_area = 2131492951;
@@ -2407,17 +2401,17 @@ namespace Chapter03._3_Maps_Google_Finish
 			// aapt resource value: 0x7f0c000d
 			public const int terrain = 2131492877;
 			
-			// aapt resource value: 0x7f0c0082
-			public const int text = 2131492994;
+			// aapt resource value: 0x7f0c007f
+			public const int text = 2131492991;
 			
-			// aapt resource value: 0x7f0c0080
-			public const int text2 = 2131492992;
+			// aapt resource value: 0x7f0c007d
+			public const int text2 = 2131492989;
 			
 			// aapt resource value: 0x7f0c003f
 			public const int textSpacerNoButtons = 2131492927;
 			
-			// aapt resource value: 0x7f0c007e
-			public const int time = 2131492990;
+			// aapt resource value: 0x7f0c007b
+			public const int time = 2131492987;
 			
 			// aapt resource value: 0x7f0c0035
 			public const int title = 2131492917;
@@ -2428,17 +2422,14 @@ namespace Chapter03._3_Maps_Google_Finish
 			// aapt resource value: 0x7f0c0039
 			public const int topPanel = 2131492921;
 			
-			// aapt resource value: 0x7f0c005c
-			public const int txtInput = 2131492956;
-			
 			// aapt resource value: 0x7f0c0008
 			public const int up = 2131492872;
 			
 			// aapt resource value: 0x7f0c001d
 			public const int useLogo = 2131492893;
 			
-			// aapt resource value: 0x7f0c0070
-			public const int volume_item_container = 2131492976;
+			// aapt resource value: 0x7f0c006d
+			public const int volume_item_container = 2131492973;
 			
 			// aapt resource value: 0x7f0c0012
 			public const int wide = 2131492882;
@@ -2666,6 +2657,12 @@ namespace Chapter03._3_Maps_Google_Finish
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f060044
+			public const int ApplicationName = 2131099716;
+			
+			// aapt resource value: 0x7f060043
+			public const int Hello = 2131099715;
+			
 			// aapt resource value: 0x7f06002e
 			public const int abc_action_bar_home_description = 2131099694;
 			
@@ -2819,6 +2816,9 @@ namespace Chapter03._3_Maps_Google_Finish
 			// aapt resource value: 0x7f06001e
 			public const int common_signin_button_text_long = 2131099678;
 			
+			// aapt resource value: 0x7f060046
+			public const int google_maps_key = 2131099718;
+			
 			// aapt resource value: 0x7f06001f
 			public const int mr_button_content_description = 2131099679;
 			
@@ -2867,8 +2867,8 @@ namespace Chapter03._3_Maps_Google_Finish
 			// aapt resource value: 0x7f060041
 			public const int status_bar_notification_info_overflow = 2131099713;
 			
-			// aapt resource value: 0x7f060043
-			public const int title_activity_maps = 2131099715;
+			// aapt resource value: 0x7f060045
+			public const int title_activity_maps = 2131099717;
 			
 			static String()
 			{
