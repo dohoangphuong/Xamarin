@@ -2657,12 +2657,6 @@ namespace Chapter03._3_Maps_Google_Finish
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f060044
-			public const int ApplicationName = 2131099716;
-			
-			// aapt resource value: 0x7f060043
-			public const int Hello = 2131099715;
-			
 			// aapt resource value: 0x7f06002e
 			public const int abc_action_bar_home_description = 2131099694;
 			
@@ -2722,6 +2716,9 @@ namespace Chapter03._3_Maps_Google_Finish
 			
 			// aapt resource value: 0x7f060042
 			public const int app_name = 2131099714;
+			
+			// aapt resource value: 0x7f060044
+			public const int applicationName = 2131099716;
 			
 			// aapt resource value: 0x7f060001
 			public const int auth_google_play_services_client_facebook_display_name = 2131099649;
@@ -2818,6 +2815,9 @@ namespace Chapter03._3_Maps_Google_Finish
 			
 			// aapt resource value: 0x7f060046
 			public const int google_maps_key = 2131099718;
+			
+			// aapt resource value: 0x7f060043
+			public const int hello = 2131099715;
 			
 			// aapt resource value: 0x7f06001f
 			public const int mr_button_content_description = 2131099679;

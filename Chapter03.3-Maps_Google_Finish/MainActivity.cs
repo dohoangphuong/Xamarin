@@ -1,9 +1,5 @@
 ﻿using System;
 using Android.App;
-using Android.Content;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
 using Android.Gms.Maps;
 
@@ -13,6 +9,11 @@ namespace Chapter03._3_Maps_Google_Finish
     public class MainActivity : Activity, IOnMapReadyCallback
     {
         private GoogleMap mMap;
+
+        public void OnMapReady(GoogleMap googleMap)
+        {
+            mMap = googleMap;
+        }
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -30,17 +31,6 @@ namespace Chapter03._3_Maps_Google_Finish
             {
                 FragmentManager.FindFragmentById<MapFragment>(Resource.Id.map).GetMapAsync(this);
             }
-        }
-
-        public void onMapReady(GoogleMap googleMap)
-        {
-            mMap = googleMap;
-        }
-
-        public void OnMapReady(GoogleMap googleMap)
-        {
-            throw new NotImplementedException();
-        }
+        }        
     }
 }
-

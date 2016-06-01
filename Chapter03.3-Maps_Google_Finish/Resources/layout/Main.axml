@@ -3,31 +3,9 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent">
-<!--<LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/linearLayout1">
-        <TextView
-            android:text="Text"
-            android:textAppearance="?android:attr/textAppearanceMedium"
-            android:id="@+id/txtInput"
-            android:layout_width="234.5dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-        <Button
-            android:text="Search"
-            android:id="@+id/btnSearch"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-    </LinearLayout>-->
-    <fragment xmlns:tools="http://schemas.android.com/tools"
+    <fragment
         android:id="@+id/map"
-        android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="startandroid.chapter.hp.chapter031_maps.MapsActivity"
-        android:layout_marginTop="0.0dp"
-        android:layout_weight="1" />
+        android:name="com.google.android.gms.maps.MapFragment" />
 </LinearLayout>
