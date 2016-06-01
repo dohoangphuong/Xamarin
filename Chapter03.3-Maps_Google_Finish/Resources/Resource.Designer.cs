@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Chapter03._2_Maps.GoogleFix.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Chapter03._3_Maps_Google_Finish.Resource", IsApplication=true)]
 
-namespace Chapter03._2_Maps.GoogleFix
+namespace Chapter03._3_Maps_Google_Finish
 {
 	
 	

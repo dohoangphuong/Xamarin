@@ -7,10 +7,9 @@ using Android.Widget;
 using Android.OS;
 using Android.Gms.Maps;
 
-namespace Chapter03._2_Maps.GoogleFix
+namespace Chapter03._3_Maps_Google_Finish
 {
-    //[Activity(MainLauncher = true, ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait)]
-    [Activity(Label = "Chapter03._2_Maps.GoogleFix", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "Chapter03._3_Maps_Google_Finish", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity, IOnMapReadyCallback
     {
         private GoogleMap mMap;
@@ -36,11 +35,6 @@ namespace Chapter03._2_Maps.GoogleFix
         public void onMapReady(GoogleMap googleMap)
         {
             mMap = googleMap;
-
-            // Add a marker in Sydney and move the camera
-            //LatLng sydney = new LatLng(10.7, 106);//(-34, 151);
-            //mMap.AddMarker(new MarkerOptions().SetPosition(sydney).SetTitle("HP"));
-            //mMap.MoveCamera(CameraUpdateFactory.NewLatLng(sydney));
         }
 
         public void OnMapReady(GoogleMap googleMap)

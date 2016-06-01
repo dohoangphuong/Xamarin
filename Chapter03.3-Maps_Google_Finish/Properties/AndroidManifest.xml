@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Chapter03.x_2_Maps.GoogleFix.Chapter03.x_2_Maps.GoogleFix" android:installLocation="auto" android:versionCode="1" android:versionName="1.0">
+	<application android:label="Chapter03._3_Maps_Google_Finish" android:icon="@drawable/Icon">
+		<meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyCgZpSOC3Geu5Xcq0GYnmZIJOFstllJQBY" />
+		<activity android:name=".MapsActivity" android:label="@string/title_activity_maps"></activity>
+	</application>
+	<uses-sdk android:targetSdkVersion="23" android:minSdkVersion="17" />
+</manifest>
