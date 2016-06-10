@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Hello">Hello World, Click Me!</string>
+  <string name="ApplicationName">chapter03.4-map04</string>
+  <string name="app_name">chapter03.4-map04</string>
+  <string name="title_activity_maps">chapter03.4-map04</string>
+  <string name="google_maps_key" value="AIzaSyBx_7JIacd-DuMKfbMpS-dRG0SJSV1dgSs" />
+</resources>

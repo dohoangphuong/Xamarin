@@ -1,7 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Maps</string>
+  <string name="app_name">Here</string>
   <string name="hello">Maps Hello</string>
-  <string name="applicationName">Gmaps of me</string>
-  <string name="title_activity_maps">Map</string>
-  <string name="google_maps_key">AIzaSyC0y8pf8sVYAItKBtlPEyVrk7LYdW03ZyQ</string>
+  <string name="applicationName">Here</string>
+  <string name="title_activity_maps">Here</string>
+  <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyD8mjKhyUjP4RpRDAy8LqW6VhT0sj4l0fw</string>
 </resources>
