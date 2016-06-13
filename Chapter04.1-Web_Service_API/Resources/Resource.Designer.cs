@@ -60,32 +60,68 @@ namespace Chapter04._1_Web_Service_API
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7f050008
+			public const int Test = 2131034120;
+			
+			// aapt resource value: 0x7f050013
+			public const int condLabel = 2131034131;
+			
+			// aapt resource value: 0x7f050012
+			public const int condSection = 2131034130;
+			
+			// aapt resource value: 0x7f050014
+			public const int condText = 2131034132;
+			
 			// aapt resource value: 0x7f050006
-			public const int btnAdd = 2131034118;
-			
-			// aapt resource value: 0x7f050000
-			public const int lblMansaje = 2131034112;
-			
-			// aapt resource value: 0x7f050002
-			public const int textA = 2131034114;
-			
-			// aapt resource value: 0x7f050004
-			public const int textB = 2131034116;
+			public const int getSection = 2131034118;
 			
 			// aapt resource value: 0x7f050007
-			public const int textResult = 2131034119;
+			public const int getWeatherButton = 2131034119;
+			
+			// aapt resource value: 0x7f050010
+			public const int humidLabel = 2131034128;
+			
+			// aapt resource value: 0x7f05000f
+			public const int humidSection = 2131034127;
+			
+			// aapt resource value: 0x7f050011
+			public const int humidText = 2131034129;
 			
 			// aapt resource value: 0x7f050001
-			public const int textShow = 2131034113;
+			public const int latLabel = 2131034113;
+			
+			// aapt resource value: 0x7f050000
+			public const int latSection = 2131034112;
+			
+			// aapt resource value: 0x7f050002
+			public const int latText = 2131034114;
+			
+			// aapt resource value: 0x7f05000a
+			public const int locLabel = 2131034122;
+			
+			// aapt resource value: 0x7f050009
+			public const int locSection = 2131034121;
+			
+			// aapt resource value: 0x7f05000b
+			public const int locationText = 2131034123;
+			
+			// aapt resource value: 0x7f050004
+			public const int longLabel = 2131034116;
 			
 			// aapt resource value: 0x7f050003
-			public const int txtA = 2131034115;
+			public const int longSection = 2131034115;
 			
 			// aapt resource value: 0x7f050005
-			public const int txtB = 2131034117;
+			public const int longText = 2131034117;
 			
-			// aapt resource value: 0x7f050008
-			public const int txtResult = 2131034120;
+			// aapt resource value: 0x7f05000d
+			public const int tempLabel = 2131034125;
+			
+			// aapt resource value: 0x7f05000c
+			public const int tempSection = 2131034124;
+			
+			// aapt resource value: 0x7f05000e
+			public const int tempText = 2131034126;
 			
 			static Id()
 			{

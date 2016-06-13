@@ -4,5 +4,5 @@
   <string name="hello">Maps Hello</string>
   <string name="applicationName">Here</string>
   <string name="title_activity_maps">Here</string>
-  <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyD8mjKhyUjP4RpRDAy8LqW6VhT0sj4l0fw</string>
+  <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyD1MNq5vgNVqHguAhnQB95x0G18bV914iE</string>
 </resources>

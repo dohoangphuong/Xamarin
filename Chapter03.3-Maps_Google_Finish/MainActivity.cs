@@ -8,7 +8,7 @@ using Android.Gms.Maps.Model;
 namespace Chapter03._3_Maps_Google_Finish
 {
     [Activity(Label = "Here", MainLauncher = true, Icon = "@drawable/icon")]
-    public class MainActivity : Activity, IOnMapReadyCallback
+    public class MainActivity : Activity, IOnMapReadyCallback//OnMapReadyCallback
     {
         private GoogleMap mMap;
 
@@ -18,16 +18,16 @@ namespace Chapter03._3_Maps_Google_Finish
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
-
-            //SupportMapFragment mapFragment = (SupportMapFragment)SupportFragmentManager().FindFragmentById(Resource.Id.map);
-           // mapFragment.GetMapAsync(this);
             SetUpMap();
         }
-        
+
 
         //Set map
         public void SetUpMap()
         {
+            //SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager()
+            //   .findFragmentById(R.id.map);
+            //mapFragment.getMapAsync(this);
             if (mMap == null)
             {
                 FragmentManager.FindFragmentById<MapFragment>(Resource.Id.map).GetMapAsync(this);
@@ -38,11 +38,10 @@ namespace Chapter03._3_Maps_Google_Finish
         {
             mMap = googleMap;
 
-            //Add a marker in Sydney and move the camera
+            // Add a marker in Sydney and move the camera
             LatLng sydney = new LatLng(-34, 151);
             mMap.AddMarker(new MarkerOptions().SetPosition(sydney).SetTitle("Marker in Sydney"));
             mMap.MoveCamera(CameraUpdateFactory.NewLatLng(sydney));
-            mMap = googleMap;
         }
     }
 }     
