@@ -62,11 +62,6 @@
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="Get Weather" />
     </LinearLayout>
-    <Button
-        android:text="Test"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/Test" />
     <LinearLayout
         android:orientation="horizontal"
         android:layout_marginTop="30dp"
