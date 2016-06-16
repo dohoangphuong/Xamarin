@@ -18,7 +18,7 @@
             android:gravity="right"
             android:id="@+id/latLabel" />
         <EditText
-            android:text="47.7"
+            android:text="10.78"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:id="@+id/latText"
@@ -40,7 +40,7 @@
             android:gravity="right"
             android:id="@+id/longLabel" />
         <EditText
-            android:text="-122.5"
+            android:text="106.69"
             android:layout_width="150dp"
             android:layout_height="50dp"
             android:id="@+id/longText"

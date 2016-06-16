@@ -1,27 +1,21 @@
 ﻿using System;
 using Android.App;
-using Android.Content;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
 using Android.OS;
 using System.Threading.Tasks;
-using System.Collections.Generic;
-using System.Xml.Linq;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using Json.NET;
-using System.Net.Http;
 using System.Json;
 using System.Net;
 using System.IO;
-using Xamarin;
-using System.Net.Http.Headers;
 using Android.Util;
-using System.Text;
 
 namespace Chapter04._1_Web_Service_API
 {
+    /*
+     Hệ thống cài đặt lấy dữ liệu từ service là một chuổi json
+     Lưu ý: Không cần khai báo quyền truy cập INTERNET mà vẫn có thể dùng internet.
+     */
+
+
     [Activity(Label = "Chapter04._1_Web_Service_API", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {

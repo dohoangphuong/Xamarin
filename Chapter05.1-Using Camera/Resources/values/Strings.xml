@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Hello">Hi</string>
+    <string name="ApplicationName">Using Camera</string>
+  <string name="openCamera">Open Camera</string>
+</resources>
