@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Chapter05._3_Take_photo.Chapter05._3_Take_photo" android:versionCode="1" android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="16" />
+	<application android:label="Take Photo"></application>
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</manifest>
