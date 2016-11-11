@@ -4,6 +4,7 @@ using Android.OS;
 using Android.Gms.Maps;
 using Android.Support.V4.App;
 using Android.Gms.Maps.Model;
+using Android.Util;
 
 namespace Chapter03._3_Maps_Google_Finish
 {
@@ -18,6 +19,7 @@ namespace Chapter03._3_Maps_Google_Finish
 
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
+            Log.Warn("aaaaaaaaaaaaaaaaaaaaaaaa", "0");
             SetUpMap();
         }
 
@@ -28,20 +30,25 @@ namespace Chapter03._3_Maps_Google_Finish
             //SupportMapFragment mapFragment = (SupportMapFragment)getSupportFragmentManager()
             //   .findFragmentById(R.id.map);
             //mapFragment.getMapAsync(this);
+            Log.Warn("aaaaaaaaaaaaaaaaaaaaaaaa", "01");
             if (mMap == null)
             {
+                Log.Warn("aaaaaaaaaaaaaaaaaaaaaaaa", "02");
                 FragmentManager.FindFragmentById<MapFragment>(Resource.Id.map).GetMapAsync(this);
+                Log.Warn("aaaaaaaaaaaaaaaaaaaaaaaa", "03");
             }
         }
 
         public void OnMapReady(GoogleMap googleMap)
         {
+            Log.Warn("aaaaaaaaaaaaaaaaaaaaaaaa", "04");
             mMap = googleMap;
-
+            Log.Warn("aaaaaaaaaaaaaaaaaaaaaaaa", "05");
             // Add a marker in Sydney and move the camera
             LatLng sydney = new LatLng(-34, 151);
             mMap.AddMarker(new MarkerOptions().SetPosition(sydney).SetTitle("Marker in Sydney"));
             mMap.MoveCamera(CameraUpdateFactory.NewLatLng(sydney));
+            Log.Warn("aaaaaaaaaaaaaaaaaaaaaaaa", "06");
         }
     }
 }     

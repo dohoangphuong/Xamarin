@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Chapter04._2_Web_Service_Set.Chapter04._2_Web_Service_Set" android:versionCode="1" android:versionName="1.0">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="Chapter04.x_2_Web_Service_Set.Chapter04.x_2_Web_Service_Set" android:versionCode="1" android:versionName="1.0" android:installLocation="auto">
 	<uses-sdk android:minSdkVersion="16" />
+	<uses-permission android:name="android.permission.INTERNET" />
 	<application android:label="Chapter04._2_Web_Service_Set"></application>
 </manifest>
